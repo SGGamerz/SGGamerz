@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @SGGamerz
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+const discord = require('discord.js');
+const client = new discord.Client();
 
-<!---
-SGGamerz/SGGamerz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+ client.once('ready', () => { 
+   console.log('Ready!');
+
+ });
+ client.login('ODkyMjMzMTU0MTEzNDU0MTAw.YVJ64A.1TJBr5vvX7tp5JQlPCBFdYXsVQw');
